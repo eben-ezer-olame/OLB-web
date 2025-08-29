@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OLB | Excellence & Innovation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="images/logo-olb.png" alt="Logo OLB">
+      <h1>OLB</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil" class="hero">
+    <h2>Bienvenue chez OLB</h2>
+    <p>Nous transformons vos idées en solutions concrètes.</p>
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" alt="Image d'accueil professionnelle">
+  </section>
+
+  <section id="a-propos" class="about">
+    <h2>À propos de OLB</h2>
+    <p>OLB est une entreprise spécialisée dans le conseil, le développement web et le design. Notre mission : vous accompagner avec expertise et créativité.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Nos Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Consulting</h3>
+        <p>Analyse stratégique et accompagnement personnalisé.</p>
+      </div>
+      <div class="card">
+        <h3>Développement Web</h3>
+        <p>Sites modernes, performants et sur mesure.</p>
+      </div>
+      <div class="card">
+        <h3>Design & Branding</h3>
+        <p>Identité visuelle forte et cohérente.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <form action="https://formspree.io/f/yourFormID" method="POST">
+      <div class="form-group">
+        <label for="name">Nom</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 OLB. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
